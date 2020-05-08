@@ -1,0 +1,10 @@
+<setting>
+    <tag load="mofron-comp-text">Text</tag>
+    <tag load="mofron-event-clicktap">ClickTap</tag>
+</setting>
+
+<script name=clktap run=init>
+console.log("click or tap event");
+</script>
+
+<Text size=0.4rem event=Tap:@clktap>Click Tap Event</Text>
